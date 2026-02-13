@@ -1,0 +1,15 @@
+{
+  "buildCommand": "npm run build",
+  "framework": null,
+  "outputDirectory": "dist",
+  "functions": {
+    "api/**/*.ts": {
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    { "source": "/mcp", "destination": "/api/mcp" },
+    { "source": "/mcp/sse", "destination": "/api/mcp/sse" },
+    { "source": "/(.*)", "destination": "/api/index" }
+  ]
+}

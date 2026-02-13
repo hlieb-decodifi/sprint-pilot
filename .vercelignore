@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+
+# Environment
+.env
+.env.*
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+tmp
+temp
+
+# Tests
+test
+tests
+*.test.ts
+*.spec.ts
+
+# Documentation (keep only README.md)
+docs
+
+# Plan files
+.cursor/plans
